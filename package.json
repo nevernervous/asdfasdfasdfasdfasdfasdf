@@ -2,7 +2,9 @@
     "name": "pc-demo",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-viso-nodes": "1.4.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
